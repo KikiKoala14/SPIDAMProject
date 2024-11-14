@@ -1,6 +1,5 @@
 Packages Used in Project:
 tkinter
-matplotlib
+filedialog
 pydub
-numpy
-ffmpeg
+wave
