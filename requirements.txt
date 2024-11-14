@@ -3,3 +3,4 @@ tkinter
 matplotlib
 pydub
 numpy
+ffmpeg
