@@ -4,3 +4,4 @@ filedialog
 ffmpeg (Must be manually installed from ffmpeg website, YouTube tutorial video here: https://www.youtube.com/watch?v=EyIIvctDhYc&t=42s)
 pydub
 wave
+mutagen
