@@ -1,0 +1,5 @@
+Packages Used in Project:
+tkinter
+matplotlib
+pydub
+numpy
