@@ -178,3 +178,4 @@ guicontroller.root.after(100, update_swap_button)
 
 #this is removed from the guicontroller and put here so it reads the analyticsModel file before tyring to run the guicontroller file
 guicontroller.root.mainloop()
+#Comment made to ensure proper files are sent over
