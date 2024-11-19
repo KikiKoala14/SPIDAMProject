@@ -5,3 +5,5 @@ ffmpeg (Must be manually installed from ffmpeg website, YouTube tutorial video h
 pydub
 wave
 mutagen
+numpy
+matplotlib
