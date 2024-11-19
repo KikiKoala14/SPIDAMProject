@@ -176,5 +176,5 @@ def update_swap_button():
 guicontroller.root.after(100, update_plot_button)
 guicontroller.root.after(100, update_swap_button)
 
-#this is added so it reads all the code before starting the controller code
+#this is removed from the guicontroller and put here so it reads the analyticsModel file before tyring to run the guicontroller file
 guicontroller.root.mainloop()
