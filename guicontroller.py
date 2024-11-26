@@ -20,6 +20,7 @@ def select_file():
         file_name = file_path.split("/")[-1]
         nameLabel.config(text=f"Selected file: {file_name}")
         process_audio(file_path)
+        root.geometry("800x800")
 
 # Define function to process the audio file and convert to .wav if necessary
 def process_audio(file_path):
