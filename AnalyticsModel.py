@@ -127,7 +127,7 @@ def plot_timeseries(file_path, plot_type):
 
             # Define frequency ranges for low, mid, and high plots
             if plot_type == 'low':
-                freq_range = (0, 300)  # Low frequency range
+                freq_range = (5, 300)  # Low frequency range
                 title = "Low Frequency"
                 color = 'green'
             elif plot_type == 'mid':
