@@ -151,7 +151,7 @@ def plot_timeseries(file_path, plot_type):
             # Create the frequency-domain plot (FFT) with time on the x-axis
             fig = Figure(figsize=(6, 4))
             ax = fig.add_subplot(111)
-            ax.plot(time_related_axis, filtered_amplitude_db, color='blue')  # Frequency spectrum line
+            ax.plot(time_related_axis, filtered_amplitude_db, color='blue') # Frequency spectrum line
             ax.set_title(title)
             ax.set_xlabel("Time (s)")  # Time on x-axis (converted from frequency)
             ax.set_ylabel("Power (dB)")  # Power in dB on y-axis
@@ -218,6 +218,3 @@ def update_swap_button():
 # Delays the update slightly
 guicontroller.root.after(100, update_plot_button)
 guicontroller.root.after(100, update_swap_button)
-
-# This is removed from the guicontroller and put here so it reads the analyticsModel file before trying to run the guicontroller file
-guicontroller.root.mainloop()
